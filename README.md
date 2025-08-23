@@ -7,11 +7,47 @@
   <p>从 ReactBits 迁移并使用 SwiftUI + Metal 重新实现的视觉效果库</p>
   <p>Migrated from ReactBits and reimplemented with SwiftUI + Metal</p>
 
-  [效果预览](#效果列表) • [技术栈](#技术特性) • [快速开始](#快速开始) • [作者](#关于作者)
+</div>
+
+---
+
+## 👨‍💻 关于作者
+
+<div align="center">
+
+  ### 赵纯想 | Chunxiang Zhao
+
+  **全栈开发工程师 | AI 编程布道者**
+
+  <p>
+    <a href="https://chunxiang.space">💻 编程课程</a> •
+    <a href="https://chunxiang.ai">🌐 个人主页</a> •
+    <a href="https://twitter.com/liseami1">𝕏 @liseami1</a>
+  </p>
+
+  <p>
+    专注于 AI 辅助编程与独立产品开发<br>
+    创办「纯想0基础全栈开发之路」课程，帮助更多人掌握全栈技术<br>
+    涵盖移动端、后端、产品设计、自媒体运营等全方位技能
+  </p>
+
+  <p>
+    <strong>🎓 全栈开发课程优惠</strong><br>
+    使用邀请码 <code><strong>AKALOL</strong></code> 享受巨大优惠<br>
+    <a href="https://chunxiang.space">立即了解课程详情 →</a>
+  </p>
+
+  <p>
+    <strong>SwiftBits 项目</strong><br>
+    从 <a href="https://github.com/reactbits">ReactBits</a> 迁移并使用 SwiftUI + Metal 重新实现<br>
+    将 Web 端的极致视觉效果带入原生 iOS 平台<br>
+    展现 GPU 加速渲染的强大性能
+  </p>
 
 </div>
 
 ---
+
 
 ## 🎬 效果列表
 
@@ -32,25 +68,6 @@
 
 
 
----
-
-## 👨‍💻 关于作者
-
-<div align="center">
-
-  ### 纯想全栈开发之路
-
-  <a href="https://chunxiang.space">
-  </a>
-
-  <p>
-    本项目从 <a href="https://github.com/reactbits">ReactBits</a> 迁移并重新实现<br>
-    使用 SwiftUI + Metal 带来原生性能体验
-  </p>
-
-</div>
-
----
 
 ## 🛠 技术特性
 
