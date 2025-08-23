@@ -1,21 +1,28 @@
-# SwiftBits 🎨
+# SwiftBits 🎨 - Swift Metal Shaders & Visual Effects
 
 <div align="center">
 
-  <h3>极致的视觉效果集合 | Ultimate Visual Effects Collection</h3>
+  <h3>极致的 iOS Metal Shader 效果集合 | Ultimate Metal Shader Collection for iOS</h3>
 
+  <p>🚀 Swift shader programming | Metal shaders | SwiftUI visual effects | iOS GPU rendering</p>
   <p>从 ReactBits 迁移并使用 SwiftUI + Metal 重新实现的视觉效果库</p>
-  <p>Migrated from ReactBits and reimplemented with SwiftUI + Metal</p>
+  <p>A comprehensive collection of Metal shaders and visual effects for iOS, built with SwiftUI</p>
+
+  <p>
+    <strong>Keywords:</strong> swift shader • metal shader • ios visual effects • swiftui animation •
+    gpu rendering • metal graphics • swift metal tutorial • ios shader programming •
+    metal compute shader • swift graphics programming
+  </p>
 
 </div>
 
 ---
 
-## 👨‍💻 关于作者
+## 👨‍💻 纯想全栈开发之路
 
 <div align="center">
 
-  ### 赵纯想 | Chunxiang Zhao
+  ### 赵纯想亲自开发、录制的100+高清4k视频编程入门网站
 
   **全栈开发工程师 | AI 编程布道者**
 
@@ -49,33 +56,36 @@
 ---
 
 
-## 🎬 效果列表
+## 🎬 Metal Shader Effects Collection | Swift Shader 效果列表
 
-| 效果 | 描述 | 核心技术 |
+### 🔥 Available Metal Shaders for iOS
+
+| Shader Effect | Description | Metal Shader Techniques |
 |------|------|----------|
-| **Aurora** 🌌 | 极光效果 | Perlin噪声 + 色彩混合 |
-| **Orb** 🔮 | 3D球体渲染 | 光线追踪 + 次表面散射 |
-| **Silk** 🌊 | 丝绸织物物理 | 流体动力学模拟 |
-| **Dither** 📊 | 抖动波浪效果 | Bayer矩阵 + 波形生成 |
-| **Beams** ✨ | 光束动态效果 | 3D噪声 + 金属反射 |
-| **Galaxy** 🌟 | 星系粒子系统 | 多层粒子 + HSV色彩 |
-| **Prism** 💎 | 棱镜光线折射 | 光线行进 + 色散效果 |
-| **Plasma** 🔥 | 等离子波浪 | 复杂数学函数 + 动态扭曲 |
-| **Particles** ⚡ | 3D粒子引擎 | 球形分布 + 动态场 |
-| **Hyperspeed** 🚀 | 超速隧道 | 透视投影 + 光迹效果 |
-| **Diamond** 💠 | 钻石折射 | SDF + 多重反射 |
-| **MetallicPaint** 🎨 | 金属漆效果 | PBR渲染 + 噪声纹理 |
+| **Aurora Shader** 🌌 | Northern lights metal shader | Perlin noise shader + Color blending |
+| **Orb Shader** 🔮 | 3D sphere metal shader | Ray tracing shader + Subsurface scattering |
+| **Silk Shader** 🌊 | Fabric physics shader | Fluid dynamics shader simulation |
+| **Dither Shader** 📊 | Dithering wave shader | Bayer matrix shader + Wave generation |
+| **Beams Shader** ✨ | Light beam shader effect | 3D noise shader + Metallic reflection |
+| **Galaxy Shader** 🌟 | Galaxy particle shader | Multi-layer particle shader + HSV colors |
+| **Prism Shader** 💎 | Prism refraction shader | Ray marching shader + Dispersion |
+| **Plasma Shader** 🔥 | Plasma wave shader | Math function shader + Dynamic distortion |
+| **Particles Shader** ⚡ | 3D particle shader system | Sphere distribution shader + Dynamic fields |
+| **Hyperspeed Shader** 🚀 | Tunnel shader effect | Perspective shader + Light trails |
+| **Diamond Shader** 💠 | Diamond refraction shader | SDF shader + Multiple reflections |
+| **MetallicPaint Shader** 🎨 | Metallic paint shader | PBR shader + Noise textures |
 
 
 
 
-## 🛠 技术特性
+## 🛠 Technical Features | Swift Metal Shader Development
 
-### 核心技术栈
-- **SwiftUI** - 声明式UI框架
-- **Metal** - GPU加速图形渲染
-- **MetalKit** - Metal渲染管道
-- **Combine** - 响应式编程
+### Core Technology Stack for Swift Shader Programming
+- **SwiftUI** - Declarative UI framework for shader visualization
+- **Metal Shading Language (MSL)** - GPU shader programming language
+- **Metal Performance Shaders** - Optimized GPU compute and graphics
+- **MetalKit** - Metal rendering pipeline for iOS shaders
+- **Combine** - Reactive shader parameter binding
 
 ### 架构特点
 ```
@@ -108,26 +118,44 @@ open SwiftBits.xcodeproj
 - 选择目标设备或模拟器
 - 按 `Cmd + R` 运行
 
-### 集成到你的项目
+### 🎯 How to Use Swift Metal Shaders in Your Project
 
-每个效果都可以独立使用：
+#### Integrating Metal Shaders with SwiftUI
+
+Each shader effect can be used independently in your iOS app:
 
 ```swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        // 使用 Aurora 效果
+        // Using Aurora Metal Shader
         AuroraEffect(
-            amplitude: 1.0,
-            blend: 0.5
+            amplitude: 1.0,  // Shader amplitude parameter
+            blend: 0.5       // Shader blending factor
         )
         .ignoresSafeArea()
     }
 }
 ```
 
-## 📄 开源协议
+#### Learn Swift Shader Programming
+
+This repository is perfect for:
+- 📚 Learning Metal shader development in Swift
+- 🎨 Creating custom visual effects for iOS apps
+- 🚀 Understanding GPU programming with Metal
+- 💡 Exploring advanced shader techniques
+- 🔧 Building high-performance graphics applications
+
+## 🔍 SEO Tags for Swift Shader Developers
+
+`swift shader` `metal shader` `ios shader` `swiftui shader` `metal graphics` `swift gpu programming`
+`metal compute shader` `ios visual effects` `swift metal tutorial` `metal shading language`
+`ios gpu rendering` `swift graphics programming` `metal performance shaders` `swiftui animation`
+`ios metal framework` `swift shader tutorial` `metal shader examples` `ios shader programming`
+
+## 📄 License
 
 本项目采用 MIT 协议开源，详见 [LICENSE](LICENSE) 文件。
 
@@ -137,5 +165,11 @@ struct ContentView: View {
   **如果这个项目对你有帮助，请给一个 ⭐️ Star**
 
   Made with ❤️ by 赵纯想
+
+  <p>
+    <strong>Related Searches:</strong><br>
+    swift shader tutorial | metal shader ios | swiftui visual effects |
+    ios gpu programming | metal graphics programming | swift metal examples
+  </p>
 
 </div>
